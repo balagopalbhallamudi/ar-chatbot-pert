@@ -11,19 +11,23 @@
 		322CD48623D2BC3D00392168 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 322CD48523D2BC3D00392168 /* art.scnassets */; };
 		322CD48823D2BC3D00392168 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 322CD48723D2BC3D00392168 /* ViewController.swift */; };
 		322CD48B23D2BC3D00392168 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 322CD48923D2BC3D00392168 /* Main.storyboard */; };
-		322CD48D23D2BC3F00392168 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 322CD48C23D2BC3F00392168 /* Assets.xcassets */; };
 		322CD49023D2BC3F00392168 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 322CD48E23D2BC3F00392168 /* LaunchScreen.storyboard */; };
+		329C40BB23D35AC9006F4E8F /* ChatBot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329C40BA23D35AC9006F4E8F /* ChatBot.swift */; };
+		32DCBDBE23D2FC2800B346A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32DCBDBD23D2FC2800B346A7 /* Assets.xcassets */; };
+		32DCBDC223D30B0700B346A7 /* product.sks in Resources */ = {isa = PBXBuildFile; fileRef = 32DCBDC123D30B0700B346A7 /* product.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		322CD48023D2BC3D00392168 /* H&R AR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "H&R AR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		322CD48023D2BC3D00392168 /* PERT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PERT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		322CD48323D2BC3D00392168 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		322CD48523D2BC3D00392168 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		322CD48723D2BC3D00392168 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		322CD48A23D2BC3D00392168 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		322CD48C23D2BC3F00392168 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		322CD48F23D2BC3F00392168 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		322CD49123D2BC3F00392168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		329C40BA23D35AC9006F4E8F /* ChatBot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBot.swift; sourceTree = "<group>"; };
+		32DCBDBD23D2FC2800B346A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32DCBDC123D30B0700B346A7 /* product.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = product.sks; path = ../../../../../../Downloads/AR/AR/product.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +52,7 @@
 		322CD48123D2BC3D00392168 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				322CD48023D2BC3D00392168 /* H&R AR.app */,
+				322CD48023D2BC3D00392168 /* PERT.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,13 +60,15 @@
 		322CD48223D2BC3D00392168 /* H&R AR */ = {
 			isa = PBXGroup;
 			children = (
+				32DCBDBD23D2FC2800B346A7 /* Assets.xcassets */,
 				322CD48323D2BC3D00392168 /* AppDelegate.swift */,
 				322CD48523D2BC3D00392168 /* art.scnassets */,
 				322CD48723D2BC3D00392168 /* ViewController.swift */,
+				32DCBDC123D30B0700B346A7 /* product.sks */,
 				322CD48923D2BC3D00392168 /* Main.storyboard */,
-				322CD48C23D2BC3F00392168 /* Assets.xcassets */,
 				322CD48E23D2BC3F00392168 /* LaunchScreen.storyboard */,
 				322CD49123D2BC3F00392168 /* Info.plist */,
+				329C40BA23D35AC9006F4E8F /* ChatBot.swift */,
 			);
 			path = "H&R AR";
 			sourceTree = "<group>";
@@ -84,7 +90,7 @@
 			);
 			name = "H&R AR";
 			productName = "H&R AR";
-			productReference = 322CD48023D2BC3D00392168 /* H&R AR.app */;
+			productReference = 322CD48023D2BC3D00392168 /* PERT.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -125,10 +131,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32DCBDC223D30B0700B346A7 /* product.sks in Resources */,
 				322CD48623D2BC3D00392168 /* art.scnassets in Resources */,
 				322CD49023D2BC3F00392168 /* LaunchScreen.storyboard in Resources */,
-				322CD48D23D2BC3F00392168 /* Assets.xcassets in Resources */,
 				322CD48B23D2BC3D00392168 /* Main.storyboard in Resources */,
+				32DCBDBE23D2FC2800B346A7 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +148,7 @@
 			files = (
 				322CD48823D2BC3D00392168 /* ViewController.swift in Sources */,
 				322CD48423D2BC3D00392168 /* AppDelegate.swift in Sources */,
+				329C40BB23D35AC9006F4E8F /* ChatBot.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,7 +300,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bhanukagamage.H-R-AR";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PERT;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -310,7 +318,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bhanukagamage.H-R-AR";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = PERT;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
